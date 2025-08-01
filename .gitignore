@@ -1,0 +1,83 @@
+# Windows system files
+NTUSER.DAT*
+ntuser.dat.*
+*.log
+*.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+myvenv/
+3rd/
+4RD/
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.PyCharm*/
+
+# Personal/Sensitive files
+.ssh/
+.aws/
+*.pem
+*.ppk
+*.key
+*password*
+*secret*
+
+# Cache and temp files
+.cache/
+.conda/
+.jupyter/
+.ipython/
+.matplotlib/
+.pylint.d/
+.idlerc/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Directories to ignore
+AppData/
+Downloads/
+Documents/
+Pictures/
+Videos/
+Music/
+Desktop/
+OneDrive/
+Contacts/
+Favorites/
+Links/
+"3D Objects"/
+"Saved Games"/
+Searches/
+"Creative Cloud Files"/
+miniconda3/
